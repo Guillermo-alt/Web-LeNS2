@@ -1,0 +1,336 @@
+/*estilos para html - aparte de bootstrap*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+
+
+/******************Header*******************/
+
+/*************************************/
+.logonav{
+    height: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    .logonav{
+        height: 40px;
+    }
+    
+  }
+/*************************************/
+nav{
+    background-color: white;
+}
+
+/*************************************/
+button{
+    width:80px;
+   
+}
+.b1{
+    background-color: #f47b2d;
+    width: 180px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.25pt;
+}
+.b1:hover{
+    background-color: #e0620e;
+    color: white;
+}
+.contenido1{
+    text-align: justify;
+}
+section{
+    overflow-y:scroll;
+     scroll-behavior: smooth;
+    height:700PX; 
+}
+
+.contac .active{
+    background-color: #33709d;
+}
+.contac a:hover{
+    background-color: #33709d;
+    color: white;
+}
+
+.btn-cont{
+    background-color: #33709d;
+}
+
+  /*ajuste de contenido home- - posicion y animacion*/
+  .confeti{
+      margin-top: 2%;
+      position: absolute;
+      z-index: 0;
+  }
+  .logo_animado {  
+    animation:fadeInDown; /*referencia al keyframe*/
+    animation-duration: 2s; /*duracion*/
+  }
+  .confeti img{
+      width: 100%;
+  } 
+.logo_animado img{
+    width: 40%;
+    margin: 18% 29%;
+}
+.des_anim{/*texto descriptivo */
+    padding-top: 30%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:25px;
+    color:white;
+    letter-spacing: 1pt; 
+    text-align: center;
+    position: absolute;
+    animation:fadeInRight; /*referencia al keyframe*/
+    animation-duration: 2s;
+}
+.marco-des{
+
+    opacity: .7;
+    background-color: #838485;
+    border-radius: 15px;
+    padding: 25px 25px;
+
+    
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: aun no se toma por hecho*/
+    .confeti{
+        position: absolute;
+        z-index: 0;
+        
+    }
+    .logo_animado {  
+      animation:fadeInDown; /*referencia al keyframe*/
+      animation-duration: 2s; /*duracion*/
+    }
+  .logo_animado img{
+      width: 50%;
+      margin: 20% 25%;
+  }
+  .des_anim{
+    padding-top: 40%;
+    font-size:20px;
+}
+  }
+
+/***********************************************************/
+.nav-item a:hover{
+    background-color: #1f6094 ;
+    color: white;
+    border-radius: 10px;
+
+}
+.navbar-toggler{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.navbar .active{
+
+    border-radius: 10px;
+}
+/*tipograpy*/
+.nav-item a{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    color: #333333;
+}
+.Titulo-1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 84px;
+    color: #1f6094;
+    letter-spacing: -1.5pt;
+    
+}
+.Titulo-2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 53px;
+    color: #1f6094;
+    letter-spacing: -.5pt;
+}
+.Titulo-2-1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 53px;
+    color: #333333;
+    letter-spacing: -.5pt;
+}
+
+.accordion-collapse{
+   transition: 1.7s;
+   border-color: #f47b2d;
+   border-width: 2px;
+   border-radius: 8px;
+}
+
+.cuerpo-1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0.5pt;
+}
+.Titulo-4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color:#333333;
+    letter-spacing: .25pt;
+}
+.Titulo-5{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 21px;
+    color:#333333;
+    letter-spacing: 0pt;
+}
+.cuerpo-1 p{
+    padding-bottom: 5px;
+}
+
+/*lista desplegable con hover- acordeon*/
+ul.acorh {
+margin: 10px auto;
+margin-left: 20px;
+width: 100%;
+letter-spacing: .15pt;
+font-family: 'Big Shoulders Display', sans-serif;
+font-size: 21px;
+list-style-image: url("/img/Bullet2.png");
+font-weight:500;
+}
+
+.sin_list{
+    
+    list-style-image: url("/img/Bullet1.png");
+}
+
+.acorh li a{
+    border-radius: 20px;
+    transition: background-color .3s linear;
+}
+
+.acorh li a:hover{
+    background-color: #f47b2d;
+    
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px; /*espaciado entre elemntos de lista y elementos*/
+color: black;
+text-decoration: none;
+}
+
+
+ul.acorh li ul {
+max-height: 0;/*oculta listas*/
+overflow: hidden;
+transition: .3s all ease-in;
+list-style-image: url("/img/Bullet1.png");
+}
+
+ul.acorc li li:last-child a{
+border-bottom: 0;
+}
+
+ul.acorh li:target ul {
+    max-height: 500px;/*altura de lista*/
+    transition: .3s all ease-in;
+}
+
+.Titulo-deco{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color:white;
+    border-radius: 8px;
+    background-color:#f47b2d;
+    text-align: center;
+    letter-spacing: .25pt;
+    border-width: 0px;
+}
+.Titulo-deco:hover{
+
+    background-color:#e95f03;
+}
+/* Login   start *********************************************************  */
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.body1{
+background-size: 100%;
+background-repeat: repeat-y;
+/*background-image: url(/img/back.png);*/
+background-image: url(/WEB-LENS/img/back.png);
+font-family: 'Numans', sans-serif;
+}
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h2{
+color: white;
+font-family: 'Big Shoulders Display', cursive;
+font-size: 84px;
+letter-spacing: -1.5pt;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+/* Login  end *********************************************************  */
+
+

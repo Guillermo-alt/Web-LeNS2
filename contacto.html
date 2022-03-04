@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guillermo Ortega Vargas" />
+    <!--Enlace a la biblioteca de bootstrap 5- archivos css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="my_css/style.css">
+    <link rel="shortcut icon" href="img/favicon1.png"/>
+    <title>Contacto</title>
+</head>
+<body class="container-fluid">  
+
+  
+  <div class="row">
+    <nav class="navbar navbar-expand-lg pt-4">
+      <div class="container-fluid  ">
+        <a class="navbar-brand" href="index.html"><img class="logonav" src="img/header.png" alt="logotivo Lens"></a><!--sobra pero se necesita para espacio en icono nav-->
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link"  href="acerca.html">ACERCA</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link"  href="diseno.html">DISEÑO</a><!--INFORMACION -METODOS --- PARA dISEÑO-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recursos.html">RECURSOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="investigacion.html">INVESTIGACIÓN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 container px-5 pt-4 contenido1 cuerpo-1">
+          <h2 class="text-center Titulo-1">Contacto</h2>
+          <p>Lorem ipsum dolor sit amet Velit rerum dolore, sed tempora esse amet aperiam a cumque culpa assumenda laboriosam nisi placeat deleniti, numquam voluptates accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla neque aliquid ipsam numquam distinctio error, magni, praesentium voluptatum quos, assumenda expedita eos para tenmer una recusandae. Adipisci alias expedita fuga.</p>
+        </div>  
+      </div>
+
+    <div class="row pt-4 ">
+    <aside class="col-md-3 mb-5" >
+        <div class="list-group contac " id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active " id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Información 1</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Información 2</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Información 3</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Registro</a>
+          </div>
+    </aside>
+    <section class="col-md-9 contenido1" >
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum reprehenderit molestiae aliquid sapiente consectetur quidem optio maiores minima et, numquam totam praesentium, unde, molestias impedit quasi? Eveniet rerum natus nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempora, at similique iste natus quo ex nulla consectetur quae repellendus quibusdam quam voluptatem, sequi dolor nobis ipsa maiores veniam aliquam?</p>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, magnam, non molestiae cumque provident accusantium aliquid, eius deserunt ipsa ducimus libero. Totam nemo quia, ipsum possimus illum modi vitae eligendi.</p>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti vero fugit sit placeat, blanditiis cumque dolorem, quas quisquam adipisci culpa. Aut illum excepturi veritatis consectetur voluptatem doloribus sapiente quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellat aliquam ipsum animi ipsa veniam doloremque fugit eos amet ad inventore dolorem cum natus ratione id adipisci quos eveniet repudiandae.</p>
+            </div>
+
+
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <form action="php/insert.php" method="POST">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Matricula</label>
+                      <input type="text" name="matricula" class="form-control" id="exampleInputPassword1" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Email</label>
+                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
+                        <textarea class="form-control" name="asunto" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn btn-primary btn-cont">Enviar</button>
+                  </form>
+
+            </div>
+          </div>
+    </section>
+    </div>
+
+
+      <!--popper para ventas y botones emergentes, bootstrap.js-->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+
+.casos-nav{
+	transition: background-color .3s linear;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-top: 10px;
+    text-decoration:none;
+}
+.text-can{
+    text-decoration:none;
+}
+.casos-nav:hover{
+    background-color: #33709d;
+    border-radius: 20px;
+   
+    
+}
+.text-cans:hover .Titulo-4{
+    color: white;
+    
+}
+.text-cans:hover .cuerpo-1{
+    color: white;
+}
+
+.header img{
+    max-width: 90%;   
+}
+.vista1{
+    z-index: 1;
+
+}
+#close img{
+    width: 25px;
+    z-index: 3;
+    position: absolute;
+}
+#close img:hover{
+    width: 35px;
+ 
+}
+.flotante{
+    z-index: 2;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    position:absolute;
+    height: 300%;
+}
+.img_cas{
+    width: 45%;
+}
+/*Footer **************************** */
