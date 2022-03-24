@@ -1,0 +1,17 @@
+.botonHerra{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    color:white;
+    border-radius: 30px 30px 30px;
+    background-color:#f47b2d;
+    text-align: center;
+    letter-spacing: .25pt;
+    border-width: 0px;
+}
+
+.cardStyle{
+    border: 4px solid #858483;
+}
+.card-img-top{
+    width: 90%;
+}

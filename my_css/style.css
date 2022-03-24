@@ -124,11 +124,23 @@ section{
   }
 
 /***********************************************************/
-.nav-item a:hover{
-    background-color: #1f6094 ;
-    color: white;
-    border-radius: 10px;
 
+.navbar-nav {
+    border: 4px solid #F07D37;
+    border-radius: 50px 50px 50px;
+    padding: 10px;
+}
+
+.nav-item a:hover{
+    background-color: #F07D37 ;
+    color: white;
+    border-radius: 30px 30px 30px;
+    
+}
+.nav-item .active{
+    background-color: #F07D37 ;
+    color: white;
+    border-radius: 30px 30px 30px;
 }
 .navbar-toggler{
     margin-top: 5px;
@@ -137,10 +149,7 @@ section{
 .nav-item{
     padding-right: 20px;
 }
-.navbar .active{
 
-    border-radius: 10px;
-}
 /*tipograpy*/
 .nav-item a{
     font-family: 'Libre Franklin', sans-serif;
@@ -250,7 +259,7 @@ ul.acorh li:target ul {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
     color:white;
-    border-radius: 8px;
+    border-radius: 30px 30px 30px;
     background-color:#f47b2d;
     text-align: center;
     letter-spacing: .25pt;
@@ -333,4 +342,9 @@ background-color: white;
 
 /* Login  end *********************************************************  */
 
+/*video acerca*/
+
+.acercaEsp{
+    height: 50px;
+}
 
